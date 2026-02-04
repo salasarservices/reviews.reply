@@ -1,0 +1,6 @@
+# Optional / advanced ML (heavy). Install only if your environment supports it (GPU / enough disk).
+# If you cannot install torch or large models in Streamlit Cloud, prefer the lightweight VADER/TextBlob approach above
+transformers>=4.35.0
+sentence-transformers>=2.2.2
+spacy>=3.5.0
+scikit-learn>=1.2.2
